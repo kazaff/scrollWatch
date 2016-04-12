@@ -1,0 +1,15 @@
+{
+  "name": "scroll-watch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+	"author": {
+    "name": "kazaff",
+    "email": "edisondik@163.com",
+    "url": "http://blog.kazaff.me"
+  },
+  "license": "MIT"
+}
