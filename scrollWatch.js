@@ -61,12 +61,7 @@
 										element: element,
 										isSame: function(isSame){
 											if(isSame){
-												var num = element.nextTime * config.multiple;
-												if(num > config.MaxWait){
-													element.nextTime = config.MaxWait;
-												}else{
-													element.nextTime = num;
-												}
+												element.nextTime = Math.min(element.nextTime * config.multiple, config.MaxWait);
 											}else{
 												element.nextTime = config.NormalWait;
 											}
